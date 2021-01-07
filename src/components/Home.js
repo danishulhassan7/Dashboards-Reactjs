@@ -8,6 +8,7 @@ import Image from '../img/img_avatar.jpg';
 import '../assets/css/style.css';
 
 export class Home extends Component {
+
   static propTypes = {}
 
   render() {
@@ -16,7 +17,7 @@ export class Home extends Component {
         {/* <SideNavBar /> */}
         {/* <div> */}
         <div >
-        {/* <div style={{ paddingLeft: '20%' }}> */}
+          {/* <div style={{ paddingLeft: '20%' }}> */}
           <Container fluid>
             <Row md={3}>
               <Col sm={6} md={3}>
@@ -27,7 +28,7 @@ export class Home extends Component {
                     <Card.Text>
                     </Card.Text>
                     <center>
-                    <Button variant="success" href="/complaint/add" style={{backgroundColor:'#5DC560'}}>ADD COMPLAINT</Button>
+                      <Button variant="success" href="/complaint/add" style={{ backgroundColor: '#5DC560' }}>ADD COMPLAINT</Button>
                     </center>
                   </Card.Body>
                 </Card>
@@ -40,7 +41,7 @@ export class Home extends Component {
                     <Card.Text>
                     </Card.Text>
                     <center>
-                    <Button variant="success" href="ClassSchdule/view" style={{backgroundColor:'#5DC560'}}>CLASS SCHDULE</Button>
+                      <Button variant="success" href="ClassSchdule/view" style={{ backgroundColor: '#5DC560' }}>CLASS SCHDULE</Button>
                     </center>
                   </Card.Body>
                 </Card>
@@ -53,7 +54,7 @@ export class Home extends Component {
                     <Card.Text>
                     </Card.Text>
                     <center>
-                    <Button variant="success" href="Attendance/view" style={{backgroundColor:'#5DC560'}}>ATTENDANCE</Button>
+                      <Button variant="success" href="Attendance/view" style={{ backgroundColor: '#5DC560' }}>ATTENDANCE</Button>
                     </center>
                   </Card.Body>
                 </Card>
@@ -66,7 +67,7 @@ export class Home extends Component {
                     <Card.Text>
                     </Card.Text>
                     <center>
-                    <Button variant="success" href="/Enrolled" style={{backgroundColor:'#5DC560'}}>ENROLLMENT</Button>
+                      <Button variant="success" href="/Enrolled" style={{ backgroundColor: '#5DC560' }}>ENROLLMENT</Button>
                     </center>
                   </Card.Body>
                 </Card>
@@ -82,7 +83,7 @@ export class Home extends Component {
                     <Card.Text>
                     </Card.Text>
                     <center>
-                    <Button variant="success" href="/announcement" style={{backgroundColor:'#5DC560'}}>ANNOUNCEMENTS</Button>
+                      <Button variant="success" href="/announcement" style={{ backgroundColor: '#5DC560' }}>ANNOUNCEMENTS</Button>
                     </center>
                   </Card.Body>
                 </Card>
@@ -95,7 +96,7 @@ export class Home extends Component {
                     <Card.Text>
                     </Card.Text>
                     <center>
-                    <Button variant="success" href="result" style={{backgroundColor:'#5DC560'}}>RESULTS</Button>
+                      <Button variant="success" href="result" style={{ backgroundColor: '#5DC560' }}>RESULTS</Button>
                     </center>
                   </Card.Body>
                 </Card>
