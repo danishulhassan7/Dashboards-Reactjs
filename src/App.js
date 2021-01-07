@@ -11,10 +11,10 @@ import ViewComplaint from './components/ViewComplaint'
 // import ViewAssignment from './components/ViewAssignment';
 // import AddNotes from './components/AddNotes';
 // import EditNotes from './components/EditNotes';
-import ViewNotes from './components/ViewNotes';
+import Attendance from './components/Attendance';
 // import AddTestFile from './components/AddTestFile';
 // import EditTestFile from './components/EditTestFile';
-import ViewTestFile from './components/ViewTestFile';
+import ClassSchdule from './components/ClassSchdule';
 import Enrolled from './components/Enrolled';
 import Announcement from './components/Announcement';
 import Results from './components/Results';
@@ -70,10 +70,10 @@ function App() {
               <Route exact path="/assignment/view" render={props => <ViewAssignment {...props} />} /> */}
               {/* <Route exact path="/notes/add" render={props => <AddNotes {...props} />} />
               <Route exact path="/notes/edit" render={props => <EditNotes {...props} />} /> */}
-              <Route exact path="/notes/view" render={props => <ViewNotes {...props} />} />
+              <Route exact path="/Attendance/view" render={props => <Attendance {...props} />} />
               {/* <Route exact path="/testfile/add" render={props => <AddTestFile {...props} />} />
               <Route exact path="/testfile/edit" render={props => <EditTestFile {...props} />} /> */}
-              <Route exact path="/testfile/view" render={props => <ViewTestFile {...props} />} />
+              <Route exact path="/ClassSchdule/view" render={props => <ClassSchdule {...props} />} />
               <Route exact path="/Enrolled" render={props => <Enrolled {...props} />} />
               <Route exact path="/announcement" render={props => <Announcement {...props} />} />
               <Route exact path="/result" render={props => <Results {...props} />} />

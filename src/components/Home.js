@@ -19,19 +19,6 @@ export class Home extends Component {
         {/* <div style={{ paddingLeft: '20%' }}> */}
           <Container fluid>
             <Row md={3}>
-              {/* <Col sm={6} md={3} className="cards">
-                <Card>
-                  <Card.Img variant="top" src={Image} />
-                  <Card.Body>
-                    <Card.Title></Card.Title>
-                    <Card.Text>
-                    </Card.Text>
-                    <center>
-                    <Button variant="success" href="#" style={{backgroundColor:'#5DC560'}}>REGISTRATION</Button>
-                    </center>
-                  </Card.Body>
-                </Card>
-              </Col> */}
               <Col sm={6} md={3}>
                 <Card>
                   <Card.Img variant="top" src={Image} />
@@ -53,7 +40,7 @@ export class Home extends Component {
                     <Card.Text>
                     </Card.Text>
                     <center>
-                    <Button variant="success" href="testfile/view" style={{backgroundColor:'#5DC560'}}>CLASS SCHDULE</Button>
+                    <Button variant="success" href="ClassSchdule/view" style={{backgroundColor:'#5DC560'}}>CLASS SCHDULE</Button>
                     </center>
                   </Card.Body>
                 </Card>
@@ -66,7 +53,7 @@ export class Home extends Component {
                     <Card.Text>
                     </Card.Text>
                     <center>
-                    <Button variant="success" href="notes/view" style={{backgroundColor:'#5DC560'}}>STUDENT ATTENDANCE</Button>
+                    <Button variant="success" href="Attendance/view" style={{backgroundColor:'#5DC560'}}>ATTENDANCE</Button>
                     </center>
                   </Card.Body>
                 </Card>

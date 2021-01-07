@@ -394,7 +394,7 @@ const SideNavBar = (props) => {
                         </List>
                     </Collapse> */}
 
-                    <ListItem button key="Class Schdule" onClick={() => { handleRoute('/testfile/view'); handleAll() }}>
+                    <ListItem button key="Class Schdule" onClick={() => { handleRoute('/ClassSchdule/view'); handleAll() }}>
 
                         <ListItemIcon>
                             <FontAwesomeIcon icon={faTable} style={{ color: 'white', fontSize: '1.75em' }} />
@@ -402,7 +402,7 @@ const SideNavBar = (props) => {
                         </ListItemIcon>
                         <ListItemText primary="Class Schdule" />
                     </ListItem>
-                    <ListItem button key="Student Attendance" onClick={() => { handleRoute('/notes/view'); handleAll() }}>
+                    <ListItem button key="Student Attendance" onClick={() => { handleRoute('/Attendance/view'); handleAll() }}>
 
                         <ListItemIcon>
                             <FontAwesomeIcon icon={faTable} style={{ color: 'white', fontSize: '1.75em' }} />
